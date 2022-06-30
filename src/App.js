@@ -12,8 +12,9 @@ import Header from './Components/Header';
 import Home from './Components/Home';
 
 function App() {
-
+ // eslint-disable-next-line
 const [height,setHeight]=useState(null);
+ // eslint-disable-next-line
 const [width,setWidth]=useState(null);
 const confettiRef=useRef(null);
 

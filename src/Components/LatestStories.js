@@ -38,7 +38,7 @@ const LatestStories = () => {
             </div>
             <div className={ styles.LatestStories_Bottom }>
                 <div className={ styles.LatestStories_CardContainer }>
-                    {
+                    {// eslint-disable-next-line
                         technology.map( (article, index) => {
                             if(index>=technology.length-1) {
                                 return(
