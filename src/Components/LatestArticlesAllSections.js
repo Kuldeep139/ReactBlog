@@ -16,7 +16,9 @@ const LatestArticlesAllSections = () => {
         <hr className={styles.AllSections_Header_Line} />
       </div>
       <div className={styles.AllSections_Bottom}>
-        {technology.map((article, index) => {
+        {
+        // eslint-disable-next-line
+        technology.map((article, index) => {
           if (index >= technology.length - 1) {
             return (
               <div key={index} className={styles.AllSections_Card}>
@@ -39,6 +41,7 @@ const LatestArticlesAllSections = () => {
                   </div>
                 </div>
                 <div>
+                
                   <span className={styles.AllSections_CategoryName}>
                     {article.CategoryName}
                   </span>
